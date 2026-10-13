@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# React
+client/node_modules/
+client/dist/
+
+# Generated output
+employee_attrition_predictions.csv
+*.log
+
+# Editor files
+.vscode/
+.idea/
